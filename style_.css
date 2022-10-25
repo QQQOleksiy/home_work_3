@@ -17,7 +17,7 @@ body{
 .cards{
     width: 60%;
     height: 50vh;
-    background: #ffffff;
+    background: aquamarine;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -25,6 +25,7 @@ body{
 .card{
     width: 30%;
     height: 80%;
+    background: #ffffff;
     border: 2px solid #a2a2a2;
     margin-bottom: 2.5%;
     display: flex;
@@ -36,15 +37,25 @@ body{
 }
 
 .icon{
-    height: 70px;
-    width: 70px;
+    width: 30%;
+    aspect-ratio: 1 / 1;
     position: relative;
     border: 2px solid #a2a2a2;
     border-radius: 50%;
-    bottom: 20%;
+    bottom: 70%;
     background: white;
     font-size: 20px;
     color: #ec9216;
+    z-index: 2;
+}
+
+.qq{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .text_one, .text_two, .bottom{
